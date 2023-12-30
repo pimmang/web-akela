@@ -14,6 +14,7 @@ import { useRef } from "react";
 const FloatingActionButtons = () => {
   const box = useRef(null);
   const menu = useRef(null);
+  const BtnUtama = useRef(null);
   const [active, setActive] = useState(false);
   const tampilFab = () => {
     window.scrollY > 370 ? setActive(true) : setActive(false);
@@ -68,6 +69,7 @@ const FloatingActionButtons = () => {
           aria-label="like"
           className={active ? "btn-fab utama" : "active btn-fab utama"}
           onClick={handleClick}
+          ref={BtnUtama}
         >
           <SegmentIcon className="fs-1" />
         </Fab>
