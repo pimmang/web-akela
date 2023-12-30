@@ -396,7 +396,7 @@ div .list {
 
 .testi {
   position: relative;
-  z-index: -99 !important;
+  z-index: 0 !important;
 }
 
 .keunggulan h6 {
