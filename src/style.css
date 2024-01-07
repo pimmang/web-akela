@@ -421,13 +421,13 @@ div .list {
   transition: 5s;
 }
 
-.tentangAkela h1 {
+.tentangAkela p {
   text-align: justify;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.tentangAkela div:nth-child(2) h1:nth-child(2) {
+.tentangAkela div:nth-child(2) p:nth-child(2) {
   color: var(--secondary-color) !important;
   text-align: center;
 }

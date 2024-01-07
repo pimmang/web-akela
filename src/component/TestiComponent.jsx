@@ -41,7 +41,10 @@ const TestiComponent = () => {
             <SwiperSlide key={data.id}>
               <div className="testi-kategori testi-container w-100 text-center">
                 <div className="testi-kategori d-flex flex-column align-items-center justify-content-between">
-                  <div style={{ height: "fit-content" }} className="d-flex flex-column align-items-center">
+                  <div
+                    style={{ height: "fit-content" }}
+                    className="d-flex flex-column align-items-center"
+                  >
                     <div className="testi-kategori-img">
                       {data.kategori === "percetakan" && (
                         <img
@@ -50,13 +53,32 @@ const TestiComponent = () => {
                           className="img-fluid"
                         />
                       )}
-                      {data.kategori === "web" && <img src="" alt="" />}
-                      {data.kategori === "uiux" && <img src="" alt="" />}
-                      {data.kategori === "desain" && <img src="" alt="" />}
+                      {data.kategori === "web" && (
+                        <img
+                          src="https://images.unsplash.com/photo-1493119508027-2b584f234d6c?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                          alt={data.kategori}
+                          className="img-fluid"
+                        />
+                      )}
+                       {data.kategori === "desain" && (
+                        <img
+                          src="https://images.unsplash.com/photo-1519408469771-2586093c3f14?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                          alt={data.kategori}
+                          className="img-fluid"
+                        />
+                      )}
+                       {data.kategori === "uiux" && (
+                        <img
+                          src=" https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                          alt={data.kategori}
+                          className="img-fluid"
+                        />
+                      )}
+                      
                     </div>
                     <h1>{data.kategori}</h1>
                   </div>
-                  <p>{'"'+data.pesan+'"'}</p>
+                  <p>{'"' + data.pesan + '"'}</p>
                   <h1 style={{ color: "var(--secondary-color)" }}>
                     {data.pengirim}
                   </h1>

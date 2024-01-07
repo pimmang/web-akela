@@ -28,7 +28,7 @@ const FooterComponent = () => {
             <li>Fotocopy</li>
           </p>
           <p>
-            <li>Cusi foto</li>
+            <li>Cuci foto</li>
           </p>
           <p>
             <li>Burning CD</li>
