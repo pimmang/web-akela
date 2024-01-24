@@ -496,11 +496,12 @@ div .list {
 .css-1b0ve20.ya {
   /* background-color: rgba(255, 255, 255, 0.5); */
   padding: 2vw 0;
+  height: 55vh;
 }
 
 .css-1b0ve20.ada {
   height: 15vw;
-  width: 15 vw;
+  /* width: 15vw; */
   padding: 0;
 }
 .css-1b0ve20.ada .MuiButtonBase-root {
@@ -517,7 +518,7 @@ div .list {
   height: 17vw;
 }
 
-.MuiButtonBase-root.utama{
+.MuiButtonBase-root.utama {
   width: 15vw !important;
   height: 15vw !important;
   margin: 0;
@@ -557,20 +558,19 @@ div .list {
   display: none;
 }
 
-.desktop-eror p{
+.desktop-eror p {
   color: white !important;
 }
-.desktop-eror h1{
+.desktop-eror h1 {
   color: var(--secondary-color) !important;
-
 }
 .hm {
   padding: 5vw;
-  background-color:#3b10537d;
+  background-color: #3b10537d;
   backdrop-filter: blur(15px);
   border-radius: 20px;
 }
-.eror-container{
+.eror-container {
   display: none;
 }
 
@@ -578,7 +578,7 @@ div .list {
   .desktop-eror {
     display: block !important;
   }
-  .eror-container{
+  .eror-container {
     display: block !important;
   }
   body {

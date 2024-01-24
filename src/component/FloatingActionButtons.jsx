@@ -58,6 +58,12 @@ const FloatingActionButtons = () => {
               <i className="ph-fill ph-instagram-logo fs-1 text-black"></i>
             </Fab>
           </a>
+
+          <a href="https://linktr.ee/Akela_Printis">
+            <Fab size="medium" aria-label="like" className="menu">
+              <i className="ph-fill ph-clipboard-text  fs-1 text-black"></i>
+            </Fab>
+          </a>
           <a href="#layanan">
             <Fab size="medium" aria-label="like" className="menu">
               <i className="ph-fill ph-package fs-1 text-black"></i>

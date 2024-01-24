@@ -5,13 +5,21 @@ const MenuComponent = () => {
         <div className="list"></div>
         <h1 className="fw-bold">Menu</h1>
       </div>
-      <div className="menu-container d-flex align-items-start flex-wrap p-3 gap-4 justify-content-evenly">
+      <div className="menu-container d-flex align-items-start flex-wrap p-3 justify-content-evenly">
         <a href="#layanan">
           <div className="d-flex align-items-center justify-content-center gap-1 flex-column">
             <div className="menu-item d-flex flex-column align-items-center">
               <i className="ph-fill ph-package fs-1"></i>
             </div>
             <p>Layanan</p>
+          </div>
+        </a>
+        <a href="https://linktr.ee/Akela_Printis">
+          <div className="d-flex align-items-center justify-content-center gap-1 flex-column">
+            <div className="menu-item d-flex flex-column align-items-center">
+              <i class="ph-fill ph-clipboard-text fs-1"></i>
+            </div>
+            <p>Portfolio</p>
           </div>
         </a>
         <a href="#sosmed">
@@ -33,9 +41,11 @@ const MenuComponent = () => {
         <a href="#tentang">
           <div className="d-flex align-items-center justify-content-center gap-1 flex-column">
             <div className="menu-item d-flex flex-column align-items-center">
-            <i className="ph-fill ph-question fs-1"></i>
+              <i className="ph-fill ph-question fs-1"></i>
             </div>
-            <p className="text-center">Tentang <br /> Kami</p>
+            <p className="text-center">
+              Tentang <br /> Kami
+            </p>
           </div>
         </a>
       </div>
